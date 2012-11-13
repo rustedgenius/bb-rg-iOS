@@ -1,0 +1,64 @@
+//
+// Prefix header for all source files of the 'BoutiqueBuddy' target in the 'BoutiqueBuddy' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#endif
+
+//
+// Prefix header for all source files of the 'Ubira' target in the 'Ubira' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_4_0
+#warning "This project uses features only available in iPhone SDK 4.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#endif
+#import "Logger.h"
+#import "Commons.h"
+/** Common **/
+
+#define kError				@"error"/** Error Codes **/
+#define kNoCouponExist      50001
+#define kNoMerchantFound    50002
+#define kUserExist          50003
+#define kFavouritesExist    50004
+#define kNoReviewExist      50005
+#define kNoFavouritesExist  50006
+#define kAddNewStoreErr		50007
+#define kStoreCheckInErr	50008
+#define kStoreListErr		50009
+#define kProductDetailErr	50010
+#define kNoUserExist		50011
+#define kNoOfferFound		50012
+#define kNoNoticeFound		50013
+#define kLocationServiceErr	50014
+#define kNoNetworkErr       50015
+#define kInvalidDataErr     50016
+
+#define kNoServerResponce   50017
+
+
+#define kLocationUpdatedNotificationKey       @"locationUpdatedNotificationkey"
+#define kCheckInCheckOutNotificationKey       @"checkInCheckOutNotificationKey"
+#define kViewUpDownAnimationDuration          0.3f
+
+
+#define kLocationServiceNotification @"LocationServiceNotification"
+#define kRegionExitNotification      @"RegionExitNotification"
+#define kCheckedInRegion    @"checkedInRegion"
+
+#define kCommonServerUrl			@"http://www.google.com/"

@@ -1,0 +1,4 @@
+/* Localized versions of Info.plist keys */
+
+"kNoNetwork" = "Network not available fsdfsfsd";
+"kServerError" = "Server_Error";

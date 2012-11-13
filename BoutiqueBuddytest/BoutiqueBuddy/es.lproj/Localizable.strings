@@ -1,0 +1,24 @@
+/* 
+  Localizable.strings
+  BoutiqueBuddy
+
+  Created by Mandar on 09/11/12.
+  Copyright (c) 2012 Rustedgenius. All rights reserved.
+*/
+"Network not available" = "Network not available fsdfsfsd";
+
+
+//Login screen localizable strings
+"Enter Boutique" = "Enter into your Boutique";
+"Boutique Title" = "BoutiqueBuddy";
+
+//Common buttons text strings
+"Change Preferences" = "Change Preferences";
+"View Saved Items" = "View Saved Items";
+
+//Main screen strings
+"Select category" = "Select category";
+
+//WishList/Favorite list
+"Share" = "Share";
+"Enquire" = "Enquire";
