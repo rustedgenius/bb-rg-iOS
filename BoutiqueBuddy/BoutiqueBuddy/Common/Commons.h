@@ -52,6 +52,7 @@
 // Alert Tags
 #define kTagResetSuccessfull 1000
 
+//Added dummy teext
 
 // Hex Color
 //Used to get color from hex number
