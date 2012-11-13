@@ -73,6 +73,7 @@
 		2ADDD92916519B6A0096407B /* BBRegisteredUserDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ADDD91716519B690096407B /* BBRegisteredUserDataModel.m */; };
 		2ADDD92C16519BAF0096407B /* img-blue-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 2ADDD92B16519BAF0096407B /* img-blue-bg.png */; };
 		2ADDD92F16519D370096407B /* UINavigationController+CustomNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ADDD92E16519D370096407B /* UINavigationController+CustomNavigationBar.m */; };
+		CEEB51AE1652157E00EF989A /* testFile.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEB51AD1652157E00EF989A /* testFile.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -182,6 +183,8 @@
 		2ADDD92B16519BAF0096407B /* img-blue-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "img-blue-bg.png"; sourceTree = "<group>"; };
 		2ADDD92D16519D370096407B /* UINavigationController+CustomNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+CustomNavigationBar.h"; sourceTree = "<group>"; };
 		2ADDD92E16519D370096407B /* UINavigationController+CustomNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+CustomNavigationBar.m"; sourceTree = "<group>"; };
+		CEEB51AC1652157E00EF989A /* testFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testFile.h; sourceTree = "<group>"; };
+		CEEB51AD1652157E00EF989A /* testFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testFile.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -389,6 +392,8 @@
 				2A1618A5164F84B700B42778 /* ProgressBarView.m */,
 				2A16189B164F83C600B42778 /* ShowProgressBar.h */,
 				2A16189C164F83C600B42778 /* ShowProgressBar.m */,
+				CEEB51AC1652157E00EF989A /* testFile.h */,
+				CEEB51AD1652157E00EF989A /* testFile.m */,
 			);
 			path = ProgressBar;
 			sourceTree = "<group>";
@@ -636,6 +641,7 @@
 				2ADDD92816519B6A0096407B /* BBAddressDataModel.m in Sources */,
 				2ADDD92916519B6A0096407B /* BBRegisteredUserDataModel.m in Sources */,
 				2ADDD92F16519D370096407B /* UINavigationController+CustomNavigationBar.m in Sources */,
+				CEEB51AE1652157E00EF989A /* testFile.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
