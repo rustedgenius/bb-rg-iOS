@@ -73,6 +73,10 @@
 		2ADDD92916519B6A0096407B /* BBRegisteredUserDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ADDD91716519B690096407B /* BBRegisteredUserDataModel.m */; };
 		2ADDD92C16519BAF0096407B /* img-blue-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 2ADDD92B16519BAF0096407B /* img-blue-bg.png */; };
 		2ADDD92F16519D370096407B /* UINavigationController+CustomNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ADDD92E16519D370096407B /* UINavigationController+CustomNavigationBar.m */; };
+		CED20A721658E48F00E92F96 /* BBAddressProfileCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CED20A711658E48F00E92F96 /* BBAddressProfileCustomCell.m */; };
+		CED20A751658E4A300E92F96 /* BBAddressProfileCustomCell_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = CED20A741658E4A300E92F96 /* BBAddressProfileCustomCell_iPhone.xib */; };
+		CED20A771658E4BA00E92F96 /* BBAddressProfileCustomCell_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = CED20A761658E4BA00E92F96 /* BBAddressProfileCustomCell_iPad.xib */; };
+		CED20A7A16590AEC00E92F96 /* Utililty.m in Sources */ = {isa = PBXBuildFile; fileRef = CED20A7916590AEC00E92F96 /* Utililty.m */; };
 		CEEB51AE1652157E00EF989A /* testFile.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEB51AD1652157E00EF989A /* testFile.m */; };
 /* End PBXBuildFile section */
 
@@ -183,6 +187,12 @@
 		2ADDD92B16519BAF0096407B /* img-blue-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "img-blue-bg.png"; sourceTree = "<group>"; };
 		2ADDD92D16519D370096407B /* UINavigationController+CustomNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+CustomNavigationBar.h"; sourceTree = "<group>"; };
 		2ADDD92E16519D370096407B /* UINavigationController+CustomNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+CustomNavigationBar.m"; sourceTree = "<group>"; };
+		CED20A701658E48F00E92F96 /* BBAddressProfileCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBAddressProfileCustomCell.h; sourceTree = "<group>"; };
+		CED20A711658E48F00E92F96 /* BBAddressProfileCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBAddressProfileCustomCell.m; sourceTree = "<group>"; };
+		CED20A741658E4A300E92F96 /* BBAddressProfileCustomCell_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BBAddressProfileCustomCell_iPhone.xib; sourceTree = "<group>"; };
+		CED20A761658E4BA00E92F96 /* BBAddressProfileCustomCell_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BBAddressProfileCustomCell_iPad.xib; sourceTree = "<group>"; };
+		CED20A7816590AEC00E92F96 /* Utililty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utililty.h; sourceTree = "<group>"; };
+		CED20A7916590AEC00E92F96 /* Utililty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utililty.m; sourceTree = "<group>"; };
 		CEEB51AC1652157E00EF989A /* testFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testFile.h; sourceTree = "<group>"; };
 		CEEB51AD1652157E00EF989A /* testFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testFile.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -428,6 +438,8 @@
 		2A708F77164C368000E703C8 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				CED20A7816590AEC00E92F96 /* Utililty.h */,
+				CED20A7916590AEC00E92F96 /* Utililty.m */,
 				2A16189A164F83C600B42778 /* ProgressBar */,
 				2A708F78164C368000E703C8 /* Commons.h */,
 				2A708F79164C368000E703C8 /* Logger.h */,
@@ -496,6 +508,10 @@
 				2ADDD91016519B690096407B /* BBProfileCustomTableCell.m */,
 				2ADDD91116519B690096407B /* BBProfileCustomTableCell_iPad.xib */,
 				2ADDD91216519B690096407B /* BBProfileCustomTableCell_iPhone.xib */,
+				CED20A701658E48F00E92F96 /* BBAddressProfileCustomCell.h */,
+				CED20A711658E48F00E92F96 /* BBAddressProfileCustomCell.m */,
+				CED20A741658E4A300E92F96 /* BBAddressProfileCustomCell_iPhone.xib */,
+				CED20A761658E4BA00E92F96 /* BBAddressProfileCustomCell_iPad.xib */,
 			);
 			path = CustomViews;
 			sourceTree = "<group>";
@@ -596,6 +612,8 @@
 				2ADDD92616519B6A0096407B /* BBProfileCustomTableCell_iPad.xib in Resources */,
 				2ADDD92716519B6A0096407B /* BBProfileCustomTableCell_iPhone.xib in Resources */,
 				2ADDD92C16519BAF0096407B /* img-blue-bg.png in Resources */,
+				CED20A751658E4A300E92F96 /* BBAddressProfileCustomCell_iPhone.xib in Resources */,
+				CED20A771658E4BA00E92F96 /* BBAddressProfileCustomCell_iPad.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -642,6 +660,8 @@
 				2ADDD92916519B6A0096407B /* BBRegisteredUserDataModel.m in Sources */,
 				2ADDD92F16519D370096407B /* UINavigationController+CustomNavigationBar.m in Sources */,
 				CEEB51AE1652157E00EF989A /* testFile.m in Sources */,
+				CED20A721658E48F00E92F96 /* BBAddressProfileCustomCell.m in Sources */,
+				CED20A7A16590AEC00E92F96 /* Utililty.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
