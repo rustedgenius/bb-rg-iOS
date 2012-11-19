@@ -43,15 +43,15 @@
     /*****************************************************/
 }
 
-@property(nonatomic, retain)  IBOutlet    UITableView* addressProfileTableView;
+@property(nonatomic, retain)IBOutlet UITableView* addressProfileTableView;
 @property(nonatomic, retain)UITextField* cityTextField;
 @property(nonatomic, retain)UITextField* zipTextField;
 @property(nonatomic, retain)UITextField* addressTextField;
 @property(nonatomic, retain)UITextField* countryTextField;
 @property(nonatomic, retain)UITextField* stateTextField;
-@property(nonatomic, copy) NSIndexPath *createAccountButtonIndexPath;
-@property (nonatomic, retain) UISegmentedControl *nextPreviousControl;
-@property (nonatomic, retain) UIToolbar *keyboardToolbar;
+@property(nonatomic, copy)NSIndexPath *createAccountButtonIndexPath;
+@property(nonatomic, retain)UISegmentedControl *nextPreviousControl;
+@property(nonatomic, retain)UIToolbar *keyboardToolbar;
 
 - (IBAction)onClickSkipButton:(id)sender;
 - (IBAction)onClickUseLocationButton:(id)sender;

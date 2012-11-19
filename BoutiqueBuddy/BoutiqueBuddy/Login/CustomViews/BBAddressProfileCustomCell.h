@@ -9,5 +9,11 @@
 #import <UIKit/UIKit.h>
 
 @interface BBAddressProfileCustomCell : UITableViewCell
+{
+
+
+}
+
+@property (retain, nonatomic) IBOutlet UITextField *cellTextField;
 
 @end

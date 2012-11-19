@@ -425,8 +425,6 @@
 	[UIView commitAnimations];
 	
 	keyboardToolbarShouldHide = YES;
-    //[self ]
-    //[self performSelectorOnMainThread:@selector(MoveTablePositionUp) withObject:nil waitUntilDone:NO];
 }
 
 
@@ -584,8 +582,8 @@
             }break;
 	}
     //Focus the first responder textfield.
-    
-    [self.addressProfileTableView scrollToRowAtIndexPath:[NSIndexPath indexPathForRow:position inSection:sectionNum] atScrollPosition:UITableViewScrollPositionTop animated:YES];
+    [self.addressProfileTableView setContentInset:UIEdgeInsetsMake(0, 0, 200, 0)];
+    [self.addressProfileTableView scrollToRowAtIndexPath:[NSIndexPath indexPathForRow:position inSection:sectionNum] atScrollPosition:UITableViewScrollPositionMiddle animated:YES];
 }
 
 /*!
@@ -598,6 +596,7 @@
 
 - (IBAction)dismissKeyboard:(id)sender
 {
+    [self.addressProfileTableView setContentInset:UIEdgeInsetsZero];
     if (keyboardToolbar) {
         [keyboardToolbar removeFromSuperview];
         keyboardToolbar = nil;
